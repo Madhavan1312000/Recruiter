@@ -1,0 +1,142 @@
+import React from 'react'
+
+const Group_discussion_form = () => {
+  return (
+    <div>
+        <div
+        class="modal fade modal-md"
+        id="group_discussion_form"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="text-end p-1">
+              <button
+                type="button"
+                class="btn-close shadow-none border-0 btn btn-sm"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div><h6 className='text-primary text-center'>Group Discussion Form</h6></div>
+            <div class="modal-body">
+              <div class="container w-100">
+                <form class="row">
+                  <div class="col-md-12">
+                    <div class="row">
+                    <div className="col-sm-6">
+                        <label for="">Interviewee</label>
+                        <input type="text" name="interviewee" class="form-control shadow-none" hidden/>
+                      </div>
+                      <div className="col-sm-6">
+                        <label for="">Interviewer</label>
+                        <input type="text" name="interviewer" class="form-control shadow-none" hidden/>
+                      </div>
+                      <div className="col-sm-6">
+                        <label for="">Position</label>
+                        <input type="text" name="text" class="form-control shadow-none" hidden/>
+                      </div>
+                      <div className="col-sm-6">
+                        <label for="">Requirement</label>
+                        <input type="text" name="requirement" class="form-control shadow-none" hidden/>
+                      </div>
+                      <hr className='mt-2'/>
+                    <div className="col-sm-12">
+                <label for="" className="form-label">1. Suitability of a Candidate</label>
+                <div className="">
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="suitability" value="1"  checked/>1
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="suitability" value="2" />2
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="suitability" value="3" />3
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="suitability" value="4" />4
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="suitability" value="5" />5
+                </div>
+              </div>
+              <div className="col-sm-12 mt-2">
+                <label for="" className="form-label">2. Ability to Work in a Team</label>
+                <div className="">
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="ability_to_work" value="1"  checked/>1
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="ability_to_work" value="2" />2
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="ability_to_work" value="3" />3
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="ability_to_work" value="4" />4
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="ability_to_work" value="5" />5
+                </div>
+              </div>
+              <div className="col-sm-12 mt-2">
+                <label for="" className="form-label">3. Communication Skills</label>
+                <div className="">
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="communication_skill" value="1"  checked/>1
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="communication_skill" value="2" />2
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="communication_skill" value="3" />3
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="communication_skill" value="4" />4
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="communication_skill" value="5" />5
+                </div>
+              </div>
+              <div className="col-sm-12 mt-2">
+                <label for="" className="form-label">4. Comfort in Speaking Spontaneously</label>
+                <div className="">
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="comfort_in_speaking" value="1"  checked/>1
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="comfort_in_speaking" value="2" />2
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="comfort_in_speaking" value="3" />3
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="comfort_in_speaking" value="4" />4
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="comfort_in_speaking" value="5" />5
+                </div>
+              </div>
+              <div className="col-sm-12 mt-2">
+                <label for="" className="form-label">5. Pronunciation and diction</label>
+                <div className="">
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="pronunciation" value="1"  checked/>1
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="pronunciation" value="2" />2
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="pronunciation" value="3" />3
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="pronunciation" value="4" />4
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="pronunciation" value="5" />5
+                </div>
+              </div>
+              <div className="col-sm-12 mt-2">
+                <label for="" className="form-label">6. Body Language</label>
+                <div className="">
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="body_language" value="1"  checked/>1
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="body_language" value="2" />2
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="body_language" value="3" />3
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="body_language" value="4" />4
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="body_language" value="5" />5
+                </div>
+              </div>
+              <div className="col-sm-12 mt-2">
+                <label for="" className="form-label">7. Maturity</label>
+                <div className="">
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="maturity" value="1"  checked/>1
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="maturity" value="2" />2
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="maturity" value="3" />3
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="maturity" value="4" />4
+                  <input className="form-check-input mx-1 shadow-none" type="radio" name="maturity" value="5" />5
+                </div>
+              </div>
+              <hr className='mt-3'/>
+              <div className="col-sm-12">
+                <label for="" className="form-label">Total Score</label>
+                <input type="number" className='form-control shadow-none' name='total_score' />
+              </div>
+              <div className="col-sm-12 mt-2">
+                <label for="" className="form-label">Remarks</label>
+                <textarea className='form-control shadow-none' name='remarks' />
+              </div>
+             <div class="col-sm-12 text-end mt-4">
+                <button type="submit" class="btn btn-primary btn-sm" value="Register">Submit</button>
+                 </div>
+                </div>
+            </div>
+            </form>
+            </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Group_discussion_form

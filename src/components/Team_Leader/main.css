@@ -1,0 +1,358 @@
+
+.login-outer-container{
+    height: 90vh;
+  }
+  #login-main{
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    #login-main {
+      height: 100%;
+      text-align: center;
+    }
+}
+.main-container{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+.sidebar_dropdown{
+    list-style-type: none;
+}
+.requirements{
+    background-color: gray;
+    width: 180px;
+    text-align: center;
+}
+.hold{
+    background-color: #f09c1e;
+    width: 180px;
+    text-align: center;
+}
+.clients_data{
+    width: 170px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.search{
+    height: 40px;
+
+}
+.qr-code{
+    padding-top: 140px;
+}
+@media screen and (max-width: 600px) {
+    .qr-code {
+      padding-top: 5px;
+      padding-left: 0;
+    }
+  }
+  
+  .form-container{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.login-form-container .form-horizontal{
+    background-color: white;
+    padding: 30px 30px 10px;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+    min-height: 360px;
+    width: 340px;
+}
+.form-container .form-horizontal{
+    background-color: white;
+    padding: 30px 30px 10px;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+    min-height: 450px;
+    width: 340px;
+}
+.form-container .title{
+    color: #202124;
+    font-size: 20px;
+    line-height: 20.0004px;
+    text-align: center;
+    padding: 2px;
+    margin: 0 0 20px 0;
+    font-family:'Google Sans','Noto Sans Myanmar UI', Arial,sans-serif;
+}
+
+.form-horizontal .form-group{
+    font-size: 0;
+    margin-top: 25px;
+    height: 50px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+}
+.form-horizontal .form-control{
+    color: black;
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-shadow: none;
+    border: none;
+}
+.form-horizontal .form-control:focus{
+    box-shadow: none;
+    border: none;
+}
+.form-horizontal .form-control::placeholder{
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-family:Roboto,RobotoDraft,Arial, Helvetica, sans-serif;
+    
+}
+.form-horizontal .signin{
+    color: #fff;
+    background-color: #1A73E8;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 5px;
+}
+.form-horizontal .forgot-pass{
+    font-size: 12px;
+    width: 50%;
+    vertical-align: bottom;
+}
+.form-horizontal .forgot-pass a,
+.form-horizontal .register a{
+    color: #1A73E8;
+    letter-spacing: 0.2px;
+}
+.form-horizontal .forgot-pass a:hover,
+.form-horizontal .register a:hover{
+    color: #555;
+    text-decoration: underline;
+}
+.form-horizontal .register{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 8px;
+    border-top: 1px solid #e7e7e7;
+    display: block;
+}
+
+/* Text */
+
+.company{
+    text-align: center;
+}
+.merida_acc{
+    font-family:'Google Sans','Noto Sans Myanmar UI', Arial,sans-serif;
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.home-navbar a{
+    color: black;
+}
+.cool{
+    color: #2E7FEA;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+}
+.cool:hover{
+    color: #2E7FEA;
+}
+.home_content{
+    color: #2E7FEA;
+}
+
+
+
+/* Home Page CSS */
+
+
+  /*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 10px 6px;
+    background: transparent;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.sidebar {
+    position: sticky;
+  top: 70px;
+}
+/*
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    /* background: #6d7fcc; */
+/* } */ 
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    /* color: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); */
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+.bt::placeholder {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+  }
+  .bt{
+    font-size: 15px;
+  }
+
+
+
