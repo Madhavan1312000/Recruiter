@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Recruiter/static/css/main.b1390272.css",
+    "main.js": "/Recruiter/static/js/main.599695bc.js",
+    "static/media/QRCode.png": "/Recruiter/static/media/QRCode.367c78eb0055ddea6f5d.png",
+    "index.html": "/Recruiter/index.html",
+    "main.b1390272.css.map": "/Recruiter/static/css/main.b1390272.css.map",
+    "main.599695bc.js.map": "/Recruiter/static/js/main.599695bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1390272.css",
+    "static/js/main.599695bc.js"
+  ]
+}
